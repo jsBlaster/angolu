@@ -392,9 +392,14 @@ drink: {
           name: "Shot Premium",
           description: "Patrón Silver · Patrón Reposado · Grey Goose Original - 3 cl",
           price: "7.00",
-        },
-      ],
-    },
+              ],
+      },
+    ],
+  },
+
+cantina: {
+  label: "cantina",
+  sections: [
     {
       title: "Bollicine & Champagne",
       items: [
