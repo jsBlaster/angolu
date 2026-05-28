@@ -251,7 +251,7 @@ drink: {
       ],
     },
     {
-      title: "Le Birre",
+      title: "Birra",
       items: [
         {
           name: "Theresianer Lager",
