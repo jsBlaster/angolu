@@ -142,101 +142,366 @@ const MENU = {
     ],
   },
 
-  drink: {
-    label: "Drink",
-    sections: [
-      {
-        title: "Aperitivi",
-        items: [
-          {
-            name: "Spritz Angolu",
-            description:
-              "Aperol, prosecco, soda, arancia, oliva — la nostra versione",
-            price: "8.00",
-          },
-          {
-            name: "Negroni",
-            description: "Gin, Campari, Vermouth rosso, scorza d'arancia",
-            price: "9.00",
-          },
-          {
-            name: "Hugo",
-            description:
-              "Prosecco, sciroppo di sambuco, menta fresca, soda, lime",
-            price: "8.00",
-          },
-        ],
-      },
-      {
-        title: "Cocktail",
-        items: [
-          {
-            name: "Mojito",
-            description: "Rum bianco, lime, menta, zucchero di canna, soda",
-            price: "10.00",
-          },
-          {
-            name: "Old Fashioned",
-            description:
-              "Bourbon, angostura, zucchero di canna, scorza d'arancia",
-            price: "12.00",
-          },
-          {
-            name: "Margarita",
-            description: "Tequila, Triple Sec, lime fresco, sale di Maldon",
-            price: "11.00",
-          },
-          {
-            name: "Cosmopolitan",
-            description: "Vodka citron, Triple Sec, succo di mirtillo, lime",
-            price: "10.00",
-          },
-        ],
-      },
-      {
-        title: "Vini",
-        items: [
-          {
-            name: "Bianco della Casa",
-            description: "Vermentino di Sardegna — fresco, floreale, minerale",
-            price: "5.00",
-          },
-          {
-            name: "Rosso della Casa",
-            description: "Cannonau di Sardegna — corposo, fruttato, speziato",
-            price: "5.00",
-          },
-          {
-            name: "Prosecco",
-            description:
-              "Extra Dry, Treviso — bollicine fini, note di mela verde",
-            price: "6.00",
-          },
-        ],
-      },
-      {
-        title: "Analcolici",
-        items: [
-          {
-            name: "Limonata Angolu",
-            description:
-              "Limone Amalfi, menta fresca, acqua frizzante, zucchero di canna",
-            price: "5.00",
-          },
-          {
-            name: "Succo di Frutta",
-            description: "Albicocca, pesca, arancia — produzione artigianale",
-            price: "4.00",
-          },
-          {
-            name: "Acqua Tonica Premium",
-            description: "Fever-Tree Indian Tonic Water",
-            price: "4.00",
-          },
-        ],
-      },
-    ],
-  },
+drink: {
+  label: "Drink",
+  sections: [
+    {
+      title: "Cocktails & Aperitivi",
+      items: [
+        {
+          name: "Spritz",
+          description: "Aperol, Campari o Select, prosecco, soda, fetta d’arancia",
+          price: "7.00",
+        },
+        {
+          name: "Hugo St-Germain",
+          description: "St-Germain, prosecco, soda, menta fresca e lime",
+          price: "8.00",
+        },
+        {
+          name: "Paloma",
+          description: "Tequila Cazadores Blanco, succo di lime e soda al pompelmo rosa",
+          price: "8.00",
+        },
+        {
+          name: "Moscow Mule",
+          description: "Eristoff Vodka, succo di lime e Ginger Beer",
+          price: "8.00",
+        },
+        {
+          name: "Gin Fizz",
+          description: "Bombay Dry Gin, succo di limone, sciroppo di zucchero e soda",
+          price: "8.00",
+        },
+      ],
+    },
+    {
+      title: "Aperitivi Martini",
+      items: [
+        {
+          name: "Americano Martini",
+          description: "Martini Rosso Vermouth, Martini Riserva Bitter e soda",
+          price: "8.00",
+        },
+        {
+          name: "Negroni Martini",
+          description: "Martini Rosso Vermouth, Martini Riserva Bitter e Bombay Dry Gin",
+          price: "8.00",
+        },
+        {
+          name: "Milano-Torino Martini",
+          description: "Martini Rosso Vermouth e Martini Riserva Bitter",
+          price: "8.00",
+        },
+      ],
+    },
+    {
+      title: "Long Drink & Pestati",
+      items: [
+        {
+          name: "Mojito",
+          description: "Bacardi Carta Blanca, lime fresco, zucchero bianco, menta e soda",
+          price: "8.00",
+        },
+        {
+          name: "Fernandito",
+          description: "Fernet Branca e Coca-Cola",
+          price: "8.00",
+        },
+        {
+          name: "Cuba Libre",
+          description: "Bacardi Carta Oro, Coca-Cola e lime",
+          price: "8.00",
+        },
+        {
+          name: "Caipirinha",
+          description: "Leblon Cachaça, lime e zucchero bianco",
+          price: "8.00",
+        },
+      ],
+    },
+    {
+      title: "Gin Tonic",
+      items: [
+        {
+          name: "Gin Tonic",
+          description: "Bombay Dry Gin e tonica",
+          price: "8.00",
+        },
+        {
+          name: "Bombay Sapphire & Tonic",
+          description: "Bombay Sapphire Gin e tonica premium",
+          price: "10.00",
+        },
+        {
+          name: "Hendrick’s & Tonic",
+          description: "Hendrick’s Gin, tonica premium e cetriolo",
+          price: "12.00",
+        },
+        {
+          name: "Mare & Tonic",
+          description: "Gin Mare, tonica premium e rosmarino",
+          price: "12.00",
+        },
+        {
+          name: "Brockmans & Tonic",
+          description: "Brockmans Gin e tonica premium",
+          price: "12.00",
+        },
+      ],
+    },
+    {
+      title: "Le Birre",
+      items: [
+        {
+          name: "Theresianer Lager",
+          description: "Alla spina — 0,40 l",
+          price: "5.00",
+        },
+        {
+          name: "Via Priula — Bacio",
+          description: "Birra artigianale Blanche, fresca e agrumata",
+          price: "6.00",
+        },
+        {
+          name: "Via Priula — Dubek",
+          description: "Birra artigianale rossa, con note di malto e caramello",
+          price: "6.00",
+        },
+        {
+          name: "Concarena — Barbabianca",
+          description: "Birra artigianale Weiss locale",
+          price: "6.00",
+        },
+        {
+          name: "Concarena — Roccia",
+          description: "Birra artigianale APA, luppolata e beverina",
+          price: "6.00",
+        },
+        {
+          name: "Ichnusa Non Filtrata",
+          description: "In bottiglia — 33 cl",
+          price: "4.50",
+        },
+      ],
+    },
+    {
+      title: "Soft Drinks",
+      items: [
+        {
+          name: "Martini Floreale",
+          description: "Martini Floreale, Ginger Beer e lime",
+          price: "6.00",
+        },
+        {
+          name: "Virgin Mojito",
+          description: "Lime pestato, menta fresca, zucchero di canna e soda",
+          price: "6.00",
+        },
+        {
+          name: "Aperitivi Analcolici",
+          description: "San Bitter · Crodino",
+          price: "4.00",
+        },
+        {
+          name: "Succhi di frutta",
+          description: "Ananas, Albicocca, Pesca, Pera, ACE",
+          price: "3.50",
+        },
+        {
+          name: "Succo BIO",
+          description: "Mirtillo 100% Bio",
+          price: "4.00",
+        },
+        {
+          name: "Bibite in vetro",
+          description: "Coca-Cola, Coca-Cola Zero",
+          price: "4.00",
+        },
+        {
+          name: "Bibite in lattina",
+          description: "Coca-Cola, Coca-Cola Zero, Thè Pesca, Thè Limone, Lemonsoda, Fanta, Schweppes Tonica",
+          price: "3.50",
+        },
+        {
+          name: "Acqua 50 cl",
+          description: "Naturale o frizzante",
+          price: "1.50",
+        },
+        {
+          name: "Acqua 1 l",
+          description: "Naturale o frizzante",
+          price: "3.00",
+        },
+      ],
+    },
+    {
+      title: "Energy Drink",
+      items: [
+        {
+          name: "Red Bull",
+          description: "",
+          price: "4.00",
+        },
+      ],
+    },
+    {
+      title: "Amari e Liquori",
+      items: [
+        {
+          name: "Amari & Liquori",
+          description: "Amaro Montenegro · Amaro del Capo · Braulio · Anima Nera · Limoncello della Casa · Sambuca · Baileys — 5 cl",
+          price: "4.00",
+        },
+        {
+          name: "Grappa Secca",
+          description: "4 cl",
+          price: "5.00",
+        },
+        {
+          name: "Grappa Morbida",
+          description: "4 cl",
+          price: "5.00",
+        },
+        {
+          name: "Grappa Barricata",
+          description: "4 cl",
+          price: "6.00",
+        },
+        {
+          name: "Vecchia Romagna",
+          description: "Distillati & Whisky — 4 cl",
+          price: "5.00",
+        },
+        {
+          name: "Jack Daniel’s",
+          description: "Distillati & Whisky — 4 cl",
+          price: "5.00",
+        },
+        {
+          name: "Laphroaig 10 Years",
+          description: "Distillati & Whisky — 4 cl",
+          price: "9.00",
+        },
+        {
+          name: "Shot Base",
+          description: "3 cl",
+          price: "4.00",
+        },
+        {
+          name: "Shot Premium",
+          description: "Patrón Silver · Patrón Reposado · Grey Goose Original — 3 cl",
+          price: "7.00",
+        },
+      ],
+    },
+    {
+      title: "La Cantina — Bollicine & Champagne",
+      items: [
+        {
+          name: "Prosecco Brut Valdobbiadene DOCG — Bortoluz",
+          description: "Calice € 5,00 · Bottiglia € 22,00",
+          price: "5.00 / 22.00",
+        },
+        {
+          name: "Franciacorta Brut — Lancini",
+          description: "Calice € 7,00 · Bottiglia € 40,00",
+          price: "7.00 / 40.00",
+        },
+        {
+          name: "Franciacorta Animante Non Dosato — Barone Pizzini",
+          description: "Bottiglia € 45,00",
+          price: "45.00",
+        },
+        {
+          name: "Franciacorta Cuvée Prestige — Ca’ del Bosco",
+          description: "Bottiglia € 50,00",
+          price: "50.00",
+        },
+        {
+          name: "Champagne Gaucher-Jacquot Réserve Brut",
+          description: "Bottiglia € 42,00",
+          price: "42.00",
+        },
+        {
+          name: "Champagne Special Cuvée — Bollinger",
+          description: "Bottiglia € 100,00",
+          price: "100.00",
+        },
+        {
+          name: "Champagne — Philipponnat",
+          description: "Bottiglia € 80,00",
+          price: "80.00",
+        },
+      ],
+    },
+    {
+      title: "La Cantina — Vini Bianchi Freschi",
+      items: [
+        {
+          name: "Lugana DOC — Ca’ dei Frati",
+          description: "Calice € 6,00 · Bottiglia € 23,00",
+          price: "6.00 / 23.00",
+        },
+        {
+          name: "Verde Luna IGT — Caminella",
+          description: "Calice € 6,00 · Bottiglia € 25,00",
+          price: "6.00 / 25.00",
+        },
+        {
+          name: "Gewürztraminer — Kurtatsch",
+          description: "Bottiglia € 30,00",
+          price: "30.00",
+        },
+        {
+          name: "Pinot Grigio — Sturm",
+          description: "Bottiglia € 40,00",
+          price: "40.00",
+        },
+      ],
+    },
+    {
+      title: "La Cantina — Vini Rosati",
+      items: [
+        {
+          name: "Rosa dei Frati (Chiaretto) — Ca’ dei Frati",
+          description: "Calice € 6,00 · Bottiglia € 35,00",
+          price: "6.00 / 35.00",
+        },
+        {
+          name: "Rosé Extra Brut Bio — Barone Pizzini",
+          description: "Bottiglia € 45,00",
+          price: "45.00",
+        },
+      ],
+    },
+    {
+      title: "La Cantina — Vini Rossi",
+      items: [
+        {
+          name: "Valcalepio DOC Rosso — Il Calepino",
+          description: "Calice € 5,00 · Bottiglia € 19,00",
+          price: "5.00 / 19.00",
+        },
+        {
+          name: "Ripasso Valpolicella — Monte del Frà",
+          description: "Calice € 6,00 · Bottiglia € 30,00",
+          price: "6.00 / 30.00",
+        },
+        {
+          name: "Luna Rossa IGP Riserva — Caminella",
+          description: "Bottiglia € 50,00",
+          price: "50.00",
+        },
+        {
+          name: "Il Bruciato Bolgheri DOC — Antinori",
+          description: "Bottiglia € 60,00",
+          price: "60.00",
+        },
+      ],
+    },
+  ],
+},
 
   caffetteria: {
     label: "Caffetteria",
