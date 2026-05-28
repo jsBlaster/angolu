@@ -110,38 +110,23 @@ const MENU = {
     ]
   },
 
-  caffetteria: {
-    label: "Caffetteria",
-    sections: [
-      {
-        title: "Caffetteria",
-        items: [
-          { name: "Espresso", description: "Miscela artigianale 100% arabica, tostatura media", price: "1.20" },
-          { name: "Cappuccino", description: "Doppio espresso, latte montato a mano, schiuma vellutata", price: "2.00" },
-          { name: "Caffè Americano", description: "Espresso allungato con acqua calda, lungo e delicato", price: "1.50" },
-          { name: "Caffè Macchiato", description: "Espresso con una nuvola di latte schiumato", price: "1.30" },
-          { name: "Latte Macchiato", description: "Latte caldo, doppio espresso versato lentamente", price: "2.20" },
-          { name: "Caffè Shakerato", description: "Espresso, ghiaccio, zucchero — agitato al momento", price: "2.50" }
-        ]
-      },
-      {
-        title: "Tè e Infusi",
-        items: [
-          { name: "Tè Verde Sencha", description: "Foglie intere giapponesi, infusione a 70°, leggero e fresco", price: "3.00" },
-          { name: "Tè Earl Grey", description: "Blend classico con bergamotto, servito con limone", price: "3.00" },
-          { name: "Infuso Relax", description: "Camomilla, lavanda, melissa — per un momento di pace", price: "3.00" },
-          { name: "Tisana Agrumi e Zenzero", description: "Arancia, limone, zenzero fresco — tonificante e aromatica", price: "3.50" }
-        ]
-      },
-      {
-        title: "Dolci da Bar",
-        items: [
-          { name: "Cornetto Artigianale", description: "Sfogliato al burro, vuoto o con crema, marmellata, cioccolato", price: "1.80" },
-          { name: "Pasta di Mandorla", description: "Pasticcino sardo tradizionale, mandorle di Avola", price: "2.00" },
-          { name: "Muffin del Giorno", description: "Preparazione fresca quotidiana — chiedi al bancone la varietà", price: "2.50" },
-          { name: "Brioche con Granita", description: "Solo estate — granita artigianale, brioche morbida", price: "4.00" }
-        ]
-      }
-    ]
-  }
+ caffetteria: {
+  label: "Caffetteria",
+  sections: [
+    {
+      title: "Caffetteria",
+      items: [
+        { name: "Espresso", description: "Espresso classico", price: "1.50" },
+        { name: "Espresso / Espresso Decaffeinato", description: "", price: "1.50" },
+        { name: "Caffè d'Orzo", description: "Tazza piccola", price: "1.60" },
+        { name: "Caffè d'Orzo", description: "Tazza grande", price: "2.00" },
+        { name: "Caffè al Ginseng", description: "Tazza piccola", price: "1.80" },
+        { name: "Caffè al Ginseng", description: "Tazza grande", price: "2.20" },
+        { name: "Caffè Shakerato", description: "Classico o vaniglia", price: "4.50" },
+        { name: "Cold Brew Coffee", description: "Caffè freddo estratto a freddo", price: "4.00" },
+        { name: "Iced Cappuccino", description: "Cappuccino freddo", price: "3.50" }
+      ]
+    }
+  ]
+}
 };
