@@ -494,7 +494,7 @@ const MENU = {
     ],
   },
 
-  cantina: {
+  CANTINA: {
   label: "Cantina",
   sections: [
     {
