@@ -17,7 +17,7 @@ const MENU = {
             price: "15.00",
           },
           {
-            name: "Tartare Tonno",
+            name: "Tartare Tonno 🐟",
             description: "Puntarelle e olio al limone",
             price: "16.00",
           },
@@ -50,7 +50,7 @@ const MENU = {
         items: [
           { name: "Casoncelli", description: "", price: "13.00" },
           { name: "Scarpinòc 🍃", description: "", price: "12.00" },
-          { name: "Gnocchi al ragù di Polpo", description: "", price: "13.00" },
+          { name: "Gnocchi al ragù di Polpo 🐟", description: "", price: "13.00" },
         ],
       },
       {
@@ -90,7 +90,7 @@ const MENU = {
         title: "Burger Gourmet + patatine*",
         items: [
           {
-            name: "Kraken",
+            name: "Kraken 🐟",
             description: "Polpo, stracciatella, pesto di basilico",
             price: "14.00",
           },
