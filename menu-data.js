@@ -1,6 +1,6 @@
 const MENU = {
   FOOD: {
-    label: "FOOD",
+    label: "Food",
     sections: [
       {
         title: "Piatti Freddi",
@@ -207,7 +207,7 @@ const MENU = {
   },
 
   DRINK: {
-    label: "DRINK",
+    label: "Drink",
     sections: [
       {
         title: "Cocktails & Aperitivi",
@@ -495,7 +495,7 @@ const MENU = {
   },
 
   CANTINA: {
-    label: "CANTINA",
+    label: "Cantina",
     sections: [
       {
         title: "Bollicine & Champagne",
@@ -543,7 +543,7 @@ const MENU = {
   },
 
   CAFFETTERIA: {
-    label: "CAFFETTERIA",
+    label: "Caffetteria",
     sections: [
       {
         title: "Caffetteria",
