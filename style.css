@@ -50,7 +50,7 @@ a {
 
 body.home {
   background: #0a0a0a;
-  color: #f5f0e8;
+  color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -82,7 +82,7 @@ body.home {
   font-weight: 400;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: #f5f0e8;
+  color: #ffffff;
   line-height: 1;
   margin-bottom: 18px;
   animation: fadeUp 0.9s 0.12s ease both;
@@ -125,7 +125,7 @@ body.home {
   content: "";
   position: absolute;
   inset: 0;
-  background: #f5f0e8;
+  background: #ffffff;
   transform: translateY(101%);
   transition: transform 0.45s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -135,7 +135,7 @@ body.home {
 }
 
 .cta-card:hover {
-  border-color: #f5f0e8;
+  border-color: #ffffff;
 }
 
 .cta-card:hover .cta-label {
@@ -148,7 +148,7 @@ body.home {
   font-weight: 400;
   letter-spacing: 0.28em;
   text-transform: uppercase;
-  color: #f5f0e8;
+  color: #ffffff;
   position: relative;
   z-index: 1;
   transition: color 0.35s;
@@ -162,7 +162,7 @@ body.home {
   display: inline-flex;
   align-items: center;
   gap: 9px;
-  color: #f5f0e8;
+  color: #ffffff;
   font-family: var(--font-body);
   font-size: 11px;
   font-weight: 300;
