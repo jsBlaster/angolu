@@ -396,7 +396,7 @@ drink: {
       ],
     },
     {
-      title: "La Cantina — Bollicine & Champagne",
+      title: "Bollicine & Champagne",
       items: [
         {
           name: "Prosecco Brut Valdobbiadene DOCG — Bortoluz",
@@ -436,7 +436,7 @@ drink: {
       ],
     },
     {
-      title: "La Cantina — Vini Bianchi Freschi",
+      title: "Vini Bianchi",
       items: [
         {
           name: "Lugana DOC — Ca’ dei Frati",
@@ -461,7 +461,7 @@ drink: {
       ],
     },
     {
-      title: "La Cantina — Vini Rosati",
+      title: "Vini Rosati",
       items: [
         {
           name: "Rosa dei Frati (Chiaretto) — Ca’ dei Frati",
@@ -476,7 +476,7 @@ drink: {
       ],
     },
     {
-      title: "La Cantina — Vini Rossi",
+      title: "Vini Rossi",
       items: [
         {
           name: "Valcalepio DOC Rosso — Il Calepino",
