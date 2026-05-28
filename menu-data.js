@@ -209,130 +209,7 @@ const MENU = {
   DRINK: {
     label: "Drink",
     sections: [
-      {
-        title: "Cocktails & Aperitivi",
-        items: [
-          {
-            name: "Spritz",
-            description:
-              "Aperol, Campari o Select, prosecco, soda, fetta d’arancia",
-            price: "7.00",
-          },
-          {
-            name: "Hugo St-Germain",
-            description:
-              "St-Germain, prosecco, soda, menta fresca e lime",
-            price: "8.00",
-          },
-          {
-            name: "Paloma",
-            description:
-              "Tequila Cazadores Blanco, succo di lime e soda al pompelmo rosa",
-            price: "8.00",
-          },
-          {
-            name: "Moscow Mule",
-            description:
-              "Eristoff Vodka, succo di lime e Ginger Beer",
-            price: "8.00",
-          },
-          {
-            name: "Gin Fizz",
-            description:
-              "Bombay Dry Gin, succo di limone, sciroppo di zucchero e soda",
-            price: "8.00",
-          },
-        ],
-      },
-
-      {
-        title: "Aperitivi Martini",
-        items: [
-          {
-            name: "Americano Martini",
-            description:
-              "Martini Rosso Vermouth, Martini Riserva Bitter e soda",
-            price: "8.00",
-          },
-          {
-            name: "Negroni Martini",
-            description:
-              "Martini Rosso Vermouth, Martini Riserva Bitter e Bombay Dry Gin",
-            price: "8.00",
-          },
-          {
-            name: "Milano-Torino Martini",
-            description:
-              "Martini Rosso Vermouth e Martini Riserva Bitter",
-            price: "8.00",
-          },
-        ],
-      },
-
-      {
-        title: "Long Drink & Pestati",
-        items: [
-          {
-            name: "Mojito",
-            description:
-              "Bacardi Carta Blanca, lime fresco, zucchero bianco, menta e soda",
-            price: "8.00",
-          },
-          {
-            name: "Fernandito",
-            description: "Fernet Branca e Coca-Cola",
-            price: "8.00",
-          },
-          {
-            name: "Cuba Libre",
-            description:
-              "Bacardi Carta Oro, Coca-Cola e lime",
-            price: "8.00",
-          },
-          {
-            name: "Caipirinha",
-            description:
-              "Leblon Cachaça, lime e zucchero bianco",
-            price: "8.00",
-          },
-        ],
-      },
-
-      {
-        title: "Gin Tonic",
-        items: [
-          {
-            name: "Gin Tonic",
-            description: "Bombay Dry Gin e tonica",
-            price: "8.00",
-          },
-          {
-            name: "Bombay Sapphire & Tonic",
-            description:
-              "Bombay Sapphire Gin e tonica premium",
-            price: "10.00",
-          },
-          {
-            name: "Hendrick’s & Tonic",
-            description:
-              "Hendrick’s Gin, tonica premium e cetriolo",
-            price: "12.00",
-          },
-          {
-            name: "Mare & Tonic",
-            description:
-              "Gin Mare, tonica premium e rosmarino",
-            price: "12.00",
-          },
-          {
-            name: "Brockmans & Tonic",
-            description:
-              "Brockmans Gin e tonica premium",
-            price: "12.00",
-          },
-        ],
-      },
-
+     
       {
         title: "Birra",
         items: [
@@ -368,6 +245,112 @@ const MENU = {
             name: "Ichnusa Non Filtrata",
             description: "In bottiglia — 33 cl",
             price: "4.50",
+          },
+        ],
+      },
+      
+      {
+        title: "Drink",
+        items: [
+          {
+            name: "Spritz",
+            description:
+              "Aperol, Campari o Select, prosecco, soda, fetta d’arancia",
+            price: "7.00",
+          },
+          {
+            name: "Hugo St-Germain",
+            description:
+              "St-Germain, prosecco, soda, menta fresca e lime",
+            price: "8.00",
+          },
+          {
+            name: "Paloma",
+            description:
+              "Tequila Cazadores Blanco, succo di lime e soda al pompelmo rosa",
+            price: "8.00",
+          },
+          {
+            name: "Moscow Mule",
+            description:
+              "Eristoff Vodka, succo di lime e Ginger Beer",
+            price: "8.00",
+          },
+          {
+            name: "Gin Fizz",
+            description:
+              "Bombay Dry Gin, succo di limone, sciroppo di zucchero e soda",
+            price: "8.00",
+          },
+          {
+            name: "Americano Martini",
+            description:
+              "Martini Rosso Vermouth, Martini Riserva Bitter e soda",
+            price: "8.00",
+          },
+          {
+            name: "Negroni Martini",
+            description:
+              "Martini Rosso Vermouth, Martini Riserva Bitter e Bombay Dry Gin",
+            price: "8.00",
+          },
+          {
+            name: "Milano-Torino Martini",
+            description:
+              "Martini Rosso Vermouth e Martini Riserva Bitter",
+            price: "8.00",
+          },
+          {
+            name: "Mojito",
+            description:
+              "Bacardi Carta Blanca, lime fresco, zucchero bianco, menta e soda",
+            price: "8.00",
+          },
+          {
+            name: "Fernandito",
+            description: "Fernet Branca e Coca-Cola",
+            price: "8.00",
+          },
+          {
+            name: "Cuba Libre",
+            description:
+              "Bacardi Carta Oro, Coca-Cola e lime",
+            price: "8.00",
+          },
+          {
+            name: "Caipirinha",
+            description:
+              "Leblon Cachaça, lime e zucchero bianco",
+            price: "8.00",
+          },
+          {
+            name: "Gin Tonic",
+            description: "Bombay Dry Gin e tonica",
+            price: "8.00",
+          },
+          {
+            name: "Bombay Sapphire & Tonic",
+            description:
+              "Bombay Sapphire Gin e tonica premium",
+            price: "10.00",
+          },
+          {
+            name: "Hendrick’s & Tonic",
+            description:
+              "Hendrick’s Gin, tonica premium e cetriolo",
+            price: "12.00",
+          },
+          {
+            name: "Mare & Tonic",
+            description:
+              "Gin Mare, tonica premium e rosmarino",
+            price: "12.00",
+          },
+          {
+            name: "Brockmans & Tonic",
+            description:
+              "Brockmans Gin e tonica premium",
+            price: "12.00",
           },
         ],
       },
