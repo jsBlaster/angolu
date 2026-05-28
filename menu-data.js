@@ -1,5 +1,4 @@
 const MENU = {
-  const MENU = {
   cibo: {
     label: "Cibo",
     sections: [
@@ -71,7 +70,7 @@ const MENU = {
       }
     ]
   }
-};
+},
   drink: {
     label: "Drink",
     sections: [
