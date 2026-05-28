@@ -350,7 +350,7 @@ drink: {
       items: [
         {
           name: "Amari & Liquori",
-          description: "Amaro Montenegro · Amaro del Capo · Braulio · Anima Nera · Limoncello della Casa · Sambuca · Baileys — 5 cl",
+          description: "Amaro Montenegro · Amaro del Capo · Braulio · Anima Nera · Limoncello della Casa · Sambuca · Baileys - 5 cl",
           price: "4.00",
         },
         {
@@ -370,17 +370,17 @@ drink: {
         },
         {
           name: "Vecchia Romagna",
-          description: "Distillati & Whisky — 4 cl",
+          description: "Distillati & Whisky - 4 cl",
           price: "5.00",
         },
         {
           name: "Jack Daniel’s",
-          description: "Distillati & Whisky — 4 cl",
+          description: "Distillati & Whisky - 4 cl",
           price: "5.00",
         },
         {
           name: "Laphroaig 10 Years",
-          description: "Distillati & Whisky — 4 cl",
+          description: "Distillati & Whisky - 4 cl",
           price: "9.00",
         },
         {
@@ -390,7 +390,7 @@ drink: {
         },
         {
           name: "Shot Premium",
-          description: "Patrón Silver · Patrón Reposado · Grey Goose Original — 3 cl",
+          description: "Patrón Silver · Patrón Reposado · Grey Goose Original - 3 cl",
           price: "7.00",
         },
       ],
