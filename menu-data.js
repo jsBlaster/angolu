@@ -142,8 +142,8 @@ const MENU = {
     ],
   },
 
-drink: {
-  label: "Drink",
+DRINK: {
+  label: "DRINK",
   sections: [
     {
       title: "Cocktails & Aperitivi",
@@ -397,8 +397,8 @@ drink: {
     ],
   },
 
-cantina: {
-  label: "cantina",
+CANTINA: {
+  label: "CANTINA",
   sections: [
     {
       title: "Bollicine & Champagne",
@@ -508,8 +508,8 @@ cantina: {
   ],
 },
 
-  caffetteria: {
-    label: "Caffetteria",
+  CAFFETTERIA: {
+    label: "CAFFETTERIA",
     sections: [
       {
         title: "Caffetteria",
