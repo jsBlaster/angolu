@@ -69,8 +69,8 @@ const MENU = {
         ]
       }
     ]
-  }
-},
+  },
+
   drink: {
     label: "Drink",
     sections: [
@@ -109,6 +109,7 @@ const MENU = {
       }
     ]
   },
+
   caffetteria: {
     label: "Caffetteria",
     sections: [
