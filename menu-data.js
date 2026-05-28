@@ -116,15 +116,30 @@ const MENU = {
     {
       title: "Caffetteria",
       items: [
-        { name: "Espresso", description: "Espresso classico", price: "1.50" },
         { name: "Espresso / Espresso Decaffeinato", description: "", price: "1.50" },
+
         { name: "Caffè d'Orzo", description: "Tazza piccola", price: "1.60" },
         { name: "Caffè d'Orzo", description: "Tazza grande", price: "2.00" },
+
         { name: "Caffè al Ginseng", description: "Tazza piccola", price: "1.80" },
         { name: "Caffè al Ginseng", description: "Tazza grande", price: "2.20" },
+
         { name: "Caffè Shakerato", description: "Classico o vaniglia", price: "4.50" },
+
         { name: "Cold Brew Coffee", description: "Caffè freddo estratto a freddo", price: "4.00" },
+
         { name: "Iced Cappuccino", description: "Cappuccino freddo", price: "3.50" }
+      ]
+    },
+
+    {
+      title: "Dolci",
+      items: [
+        { name: "Cheesecake Frutti di Bosco", description: "", price: "6.00" },
+
+        { name: "Cheesecake Cioccolato Bianco e Pistacchio", description: "", price: "6.00" },
+
+        { name: "Dolce del Giorno", description: "", price: "6.00" }
       ]
     }
   ]
