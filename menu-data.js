@@ -83,7 +83,7 @@ const MENU = {
         items: [
           { name: "Polenta lisci 🍃", description: "", price: "6.00" },
           { name: "Polenta e formaggi 🍃", description: "", price: "10.00" },
-          { name: "polenta e porcini 🍃", description: "", price: "12.00" },
+          { name: "Polenta e porcini 🍃", description: "", price: "12.00" },
         ],
       },
       {
