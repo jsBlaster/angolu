@@ -118,11 +118,9 @@ const MENU = {
       items: [
         { name: "Espresso / Espresso Decaffeinato", description: "", price: "1.50" },
 
-        { name: "Caffè d'Orzo", description: "Tazza piccola", price: "1.60" },
-        { name: "Caffè d'Orzo", description: "Tazza grande", price: "2.00" },
+        { name: "Caffè d'Orzo", description: "Tazza piccola/grande", price: "1.60/2.00" },
 
-        { name: "Caffè al Ginseng", description: "Tazza piccola", price: "1.80" },
-        { name: "Caffè al Ginseng", description: "Tazza grande", price: "2.20" },
+        { name: "Caffè al Ginseng", description: "Tazza piccola/grande", price: "1.80/2.20" },
 
         { name: "Caffè Shakerato", description: "Classico o vaniglia", price: "4.50" },
 
