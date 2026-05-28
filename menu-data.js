@@ -1,6 +1,6 @@
 const MENU = {
-  cibo: {
-    label: "Cibo",
+  FOOD: {
+    label: "FOOD",
     sections: [
       {
         title: "Piatti Freddi",
