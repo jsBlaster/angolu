@@ -21,22 +21,22 @@ const MENU = {
         items: [
           { name: "Casoncelli", description: "", price: "13.00" },
           { name: "Scarpinòc", description: "", price: "12.00" },
-          { name: "Gnocchi Polpo", description: "", price: "13.00" }
+          { name: "Gnocchi al ragù di Polpo", description: "", price: "13.00" }
         ]
       },
       {
         title: "Secondi Piatti + patatine*",
         items: [
-          { name: "Spiedini (2)", description: "", price: "12.00" },
+          { name: "Spiedini di carne (2)", description: "", price: "12.00" },
           { name: "Salamella", description: "", price: "10.00" },
-          { name: "Tagliata", description: "", price: "22.00" },
-          { name: "Grigliata mista", description: "", price: "24.00" }
+          { name: "Tagliata di bovino adulto", description: "", price: "22.00" },
+          { name: "Grigliata mista", description: "Spiedini, salamella e tagliata", price: "24.00" }
         ]
       },
       {
         title: "Contorni",
         items: [
-          { name: "Patatine", description: "", price: "6.00" },
+          { name: "Patatine fritte", description: "", price: "6.00" },
           { name: "Verdure grigliate", description: "", price: "6.00" },
           { name: "Insalata mista", description: "", price: "5.00" }
         ]
@@ -44,9 +44,9 @@ const MENU = {
       {
         title: "Polenta",
         items: [
-          { name: "Liscia", description: "", price: "6.00" },
-          { name: "Formaggi", description: "", price: "10.00" },
-          { name: "Porcini", description: "", price: "12.00" }
+          { name: "Polenta liscia", description: "", price: "6.00" },
+          { name: "Polenta e formaggi", description: "", price: "10.00" },
+          { name: "polenta e porcini", description: "", price: "12.00" }
         ]
       },
       {
