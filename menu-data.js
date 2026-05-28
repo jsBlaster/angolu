@@ -158,7 +158,7 @@ const MENU = {
             price: "12.00",
           },
           {
-            name: "Hamburgher",
+            name: "Hamburger",
             description:
               "Hamburger di manzo, cheddar, pomodoro, Bacon croccante, insalata",
             price: "13.00",
