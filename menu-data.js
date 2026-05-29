@@ -36,7 +36,7 @@ const MENU = {
             price: "14.00",
           },
           {
-            name: "Bruschetta Pomodori e stracciatella 🍃",
+            name: "Bruschetta pomodori e stracciatella 🍃",
             description: "",
             price: "12.00",
           },
@@ -187,12 +187,12 @@ const MENU = {
         title: "Dolci",
         items: [
           {
-            name: "Cheesecake Frutti di bosco",
+            name: "Cheesecake frutti di bosco",
             description: "",
             price: "6.00",
           },
           {
-            name: "Cheesecake Cioccolato bianco e Pistacchio",
+            name: "Cheesecake cioccolato bianco e pistacchio",
             description: "",
             price: "6.00",
           },
