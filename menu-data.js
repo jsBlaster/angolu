@@ -63,7 +63,7 @@ const MENU = {
             price: "13.00",
           },
           {
-            name: "Scarpinòc 🍃",
+            name: "Scarpinocc 🍃",
             description: "",
             price: "12.00",
           },
