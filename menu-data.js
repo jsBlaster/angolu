@@ -659,7 +659,7 @@ const MENU = {
         title: "Dolci",
         items: [
           {
-            name: "Cheesecake frutti di Bosco",
+            name: "Cheesecake frutti di bosco",
             description: "",
             price: "6.00",
           },
