@@ -3,7 +3,7 @@ const MENU = {
     label: "Food",
     sections: [
       {
-        title: "Piatti Freddi",
+        title: "Piatti estivi",
         items: [
           {
             name: "Tagliere misto",
