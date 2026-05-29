@@ -126,7 +126,7 @@ const MENU = {
         title: "Polenta",
         items: [
           {
-            name: "Polenta lisci 🍃",
+            name: "Polenta liscia 🍃",
             description: "",
             price: "6.00",
           },
