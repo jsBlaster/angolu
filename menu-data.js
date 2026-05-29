@@ -215,35 +215,35 @@ const MENU = {
         items: [
           {
             name: "Theresianer Lager",
-            description: "Alla spina — 0,40 l",
+            description: "Alla spina — 4,8% - 40cl",
             price: "5.00",
           },
           {
-            name: "Via Priula — Bacio",
+            name: "Concarena - Barbabianca",
             description:
-              "Birra artigianale Blanche, fresca e agrumata",
+              "Birra artigianale Weiss locale - 5,2% - 40cl",
             price: "6.00",
           },
           {
-            name: "Via Priula — Dubek",
+            name: "Via Priula - Bacio",
             description:
-              "Birra artigianale rossa, con note di malto e caramello",
+              "Birra artigianale Blanche, fresca e agrumata - IPA gluten free 4,9% - 40cl",
             price: "6.00",
           },
           {
-            name: "Concarena — Barbabianca",
-            description: "Birra artigianale Weiss locale",
+            name: "Via Priula - Dubek",
+            description: "Birra artigianale rossa, con note di malto e caramello - 7,5% - 40cl",
             price: "6.00",
           },
           {
-            name: "Concarena — Roccia",
+            name: "Concarena - Roccia",
             description:
-              "Birra artigianale APA, luppolata e beverina",
+              "Strong Lager - 7,5% - 40cl",
             price: "6.00",
           },
           {
             name: "Ichnusa Non Filtrata",
-            description: "In bottiglia — 33 cl",
+            description: "In bottiglia - 33cl",
             price: "4.50",
           },
         ],
