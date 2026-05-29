@@ -594,7 +594,12 @@ const MENU = {
         title: "Caffetteria",
         items: [
           {
-            name: "Espresso / Espresso Decaffeinato / Espresso Macchiato",
+            name: "Espresso / Espresso Decaffeinato",
+            description: "",
+            price: "1.50",
+          },
+          {
+            name: "Espresso Macchiato",
             description: "",
             price: "1.50",
           },
