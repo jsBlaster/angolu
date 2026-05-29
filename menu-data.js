@@ -6,33 +6,33 @@ const MENU = {
         title: "Piatti Freddi",
         items: [
           {
-            name: "Tagliere Misto",
-            description: "Selezione di salumi e formaggi Bergamaschi",
+            name: "Tagliere misto",
+            description: "Selezione di salumi e formaggi bergamaschi",
             price: "20.00",
           },
           {
-            name: "Crudo di Parma e Melone",
+            name: "Crudo di Parma e melone",
             description: "",
             price: "15.00",
           },
           {
-            name: "Tartare Manzo",
+            name: "Tartare manzo",
             description: "Tuorlo e senape al miele",
             price: "15.00",
           },
           {
-            name: "Tartare Tonno 🐟",
+            name: "Tartare tonno 🐟",
             description: "Porri e olio al limone",
             price: "16.00",
           },
           {
-            name: "Vitello Tonnato",
+            name: "Vitello tonnato",
             description: "",
             price: "14.00",
           },
           {
             name: "Roast-beef",
-            description: "Rucola e Grana Padano",
+            description: "Rucola e grana padano",
             price: "14.00",
           },
           {
@@ -46,9 +46,9 @@ const MENU = {
             price: "10.00",
           },
           {
-            name: "Caesar Salad",
+            name: "Caesar salad",
             description:
-              "Pollo alla piastra, pomodori, grana, crostini di pane e salsa Yogurt",
+              "Pollo alla piastra, pomodori, grana, crostini di pane e salsa yogurt",
             price: "12.00",
           },
         ],
@@ -221,13 +221,13 @@ const MENU = {
           {
             name: "Concarena - Barbabianca",
             description:
-              "Birra artigianale Weiss locale - 5,2% - 40cl",
+              "Birra artigianale weiss locale - 5,2% - 40cl",
             price: "6.00",
           },
           {
             name: "Via Priula - Bacio",
             description:
-              "Birra artigianale Blanche, fresca e agrumata - IPA gluten free 4,9% - 40cl",
+              "Birra artigianale blanche, fresca e agrumata - IPA gluten free 4,9% - 40cl",
             price: "6.00",
           },
           {
@@ -242,7 +242,7 @@ const MENU = {
             price: "6.00",
           },
           {
-            name: "Ichnusa Non Filtrata",
+            name: "Ichnusa non filtrata",
             description: "In bottiglia - 33cl",
             price: "4.50",
           },
@@ -612,12 +612,12 @@ const MENU = {
         title: "Caffetteria",
         items: [
           {
-            name: "Espresso / Espresso Decaffeinato",
+            name: "Espresso / Espresso decaffeinato",
             description: "",
             price: "1.50",
           },
           {
-            name: "Espresso Macchiato",
+            name: "Espresso macchiato",
             description: "",
             price: "1.50",
           },
@@ -627,28 +627,28 @@ const MENU = {
             price: "2.50",
           },
           {
-            name: "Caffè d'Orzo",
+            name: "Caffè d'orzo",
             description: "Tazza piccola/grande",
             price: "1.60/2.00",
           },
           {
-            name: "Caffè al Ginseng",
+            name: "Caffè al ginseng",
             description: "Tazza piccola/grande",
             price: "1.80/2.20",
           },
           {
-            name: "Caffè Shakerato",
+            name: "Caffè shakerato",
             description: "Classico o vaniglia",
             price: "4.50",
           },
           {
-            name: "Cold Brew Coffee",
+            name: "Cold brew coffee",
             description:
               "Caffè freddo estratto a freddo",
             price: "4.00",
           },
           {
-            name: "Iced Cappuccino",
+            name: "Iced cappuccino",
             description: "Cappuccino freddo",
             price: "3.50",
           },
