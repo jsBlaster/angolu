@@ -154,7 +154,7 @@ const MENU = {
           {
             name: "Pulled Chicken",
             description:
-              "Straccetti di pollo, Insalata Coleslaw e maionese al limone",
+              "Straccetti di pollo, insalata Coleslaw e maionese al limone",
             price: "12.00",
           },
           {
