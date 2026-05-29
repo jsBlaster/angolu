@@ -659,18 +659,18 @@ const MENU = {
         title: "Dolci",
         items: [
           {
-            name: "Cheesecake Frutti di Bosco",
+            name: "Cheesecake frutti di Bosco",
             description: "",
             price: "6.00",
           },
           {
             name:
-              "Cheesecake Cioccolato Bianco e Pistacchio",
+              "Cheesecake cioccolato bianco e pistacchio",
             description: "",
             price: "6.00",
           },
           {
-            name: "Dolce del Giorno",
+            name: "Dolce del giorno",
             description: "",
             price: "6.00",
           },
