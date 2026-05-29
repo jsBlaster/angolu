@@ -105,7 +105,7 @@ const MENU = {
         title: "Contorni",
         items: [
           {
-            name: "Patatine fritte 🍃",
+            name: "Patatine fritte* 🍃",
             description: "",
             price: "6.00",
           },
