@@ -305,6 +305,12 @@ const MENU = {
               "Leblon Cachaça, lime e zucchero bianco",
             price: "8.00",
           },
+          {
+            name: "Il Camparino",
+            description:
+              "",
+            price: "4.00",
+          },
         ],
       },
 
