@@ -283,24 +283,6 @@ const MENU = {
             price: "8.00",
           },
           {
-            name: "Americano Martini",
-            description:
-              "Martini Rosso Vermouth, Martini Riserva Bitter e soda",
-            price: "8.00",
-          },
-          {
-            name: "Negroni Martini",
-            description:
-              "Martini Rosso Vermouth, Martini Riserva Bitter e Bombay Dry Gin",
-            price: "8.00",
-          },
-          {
-            name: "Milano-Torino Martini",
-            description:
-              "Martini Rosso Vermouth e Martini Riserva Bitter",
-            price: "8.00",
-          },
-          {
             name: "Mojito",
             description:
               "Bacardi Carta Blanca, lime fresco, zucchero bianco, menta e soda",
@@ -321,6 +303,30 @@ const MENU = {
             name: "Caipirinha",
             description:
               "Leblon Cachaça, lime e zucchero bianco",
+            price: "8.00",
+          },
+        ],
+      },
+
+      {
+        title: "Aperitivo Martini",
+        items: [
+          {
+            name: "Americano Martini",
+            description:
+              "Martini Rosso Vermouth, Martini Riserva Bitter e soda",
+            price: "8.00",
+          },
+          {
+            name: "Negroni Martini",
+            description:
+              "Martini Rosso Vermouth, Martini Riserva Bitter e Bombay Dry Gin",
+            price: "8.00",
+          },
+          {
+            name: "Milano-Torino Martini",
+            description:
+              "Martini Rosso Vermouth e Martini Riserva Bitter",
             price: "8.00",
           },
         ],
