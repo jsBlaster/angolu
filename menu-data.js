@@ -154,19 +154,19 @@ const MENU = {
           {
             name: "Pulled Chicken",
             description:
-              "Straccetti di pollo, insalata Coleslaw e maionese al limone",
+              "Straccetti di pollo, insalata coleslaw e maionese al limone",
             price: "12.00",
           },
           {
             name: "Hamburger",
             description:
-              "Hamburger di manzo, cheddar, pomodoro, Bacon croccante, insalata",
+              "Hamburger di manzo, cheddar, pomodoro, bacon croccante, insalata",
             price: "13.00",
           },
           {
             name: "Pulled Pork",
             description:
-              "Carne sfilacciata di maiale, Jalapeno, cipolla caramellata, salsa BBQ",
+              "Carne sfilacciata di maiale, jalapeno, cipolla caramellata, salsa BBQ",
             price: "13.00",
           },
           {
