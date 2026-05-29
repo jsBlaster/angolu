@@ -408,12 +408,6 @@ const MENU = {
             description: "Naturale o frizzante",
             price: "3.00",
           },
-        ],
-      },
-
-      {
-        title: "Energy Drink",
-        items: [
           {
             name: "Red Bull",
             description: "",
