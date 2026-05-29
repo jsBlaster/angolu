@@ -177,7 +177,7 @@ const MENU = {
           },
           {
             name: "L’Ortolano 🍃",
-            description: "Mozzarella,verdure grigliate, pomodoro e origano",
+            description: "Mozzarella, verdure grigliate, pomodoro e origano",
             price: "10.00",
           },
         ],
