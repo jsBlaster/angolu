@@ -41,7 +41,7 @@ const MENU = {
             price: "12.00",
           },
           {
-            name: "Provola e verdura alla brace 🍃",
+            name: "Provola e verdure alla brace 🍃",
             description: "",
             price: "10.00",
           },
