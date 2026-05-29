@@ -55,7 +55,7 @@ const MENU = {
       },
 
       {
-        title: "Primi Piatti di Pasta fresca",
+        title: "Primi piatti di pasta fresca",
         items: [
           {
             name: "Casoncelli",
@@ -76,7 +76,7 @@ const MENU = {
       },
 
       {
-        title: "Secondi Piatti + patatine*",
+        title: "Secondi piatti + patatine*",
         items: [
           {
             name: "Spiedini di carne (2)",
