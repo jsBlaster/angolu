@@ -22,7 +22,7 @@ const MENU = {
           },
           {
             name: "Tartare Tonno 🐟",
-            description: "Puntarelle e olio al limone",
+            description: "Porri e olio al limone",
             price: "16.00",
           },
           {
@@ -177,7 +177,7 @@ const MENU = {
           },
           {
             name: "L’Ortolano 🍃",
-            description: "Pomodoro, verdure grigliate e branzi",
+            description: "Mozzarella,verdure grigliate, pomodoro e origano",
             price: "10.00",
           },
         ],
