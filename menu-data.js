@@ -147,7 +147,7 @@ const MENU = {
         title: "Burger Gourmet + patatine*",
         items: [
           {
-            name: "Kraken 🐟",
+            name: "Panino con il Polpo 🐟",
             description: "Polpo, stracciatella, pesto di basilico",
             price: "14.00",
           },
