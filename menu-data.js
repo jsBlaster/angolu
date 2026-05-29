@@ -456,6 +456,11 @@ const MENU = {
             price: "9.00",
           },
           {
+            name: "Santa Teresa 1796",
+            description: "",
+            price: "8.00",
+          },
+          {
             name: "Shot Base",
             description: "3 cl",
             price: "3.00",
