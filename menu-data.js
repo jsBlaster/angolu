@@ -259,7 +259,7 @@ const MENU = {
             price: "7.00",
           },
           {
-            name: "Hugo St-Germain",
+            name: "Hugo St-Germain Spritz",
             description:
               "St-Germain, prosecco, soda, menta fresca e lime",
             price: "8.00",
