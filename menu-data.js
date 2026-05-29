@@ -68,7 +68,7 @@ const MENU = {
             price: "12.00",
           },
           {
-            name: "Gnocchi al ragù di Polpo 🐟",
+            name: "Gnocchi al ragù di polpo 🐟",
             description: "",
             price: "13.00",
           },
@@ -147,7 +147,7 @@ const MENU = {
         title: "Burger Gourmet + patatine*",
         items: [
           {
-            name: "Panino con il Polpo 🐟",
+            name: "Panino con il polpo 🐟",
             description: "Polpo, stracciatella, pesto di basilico",
             price: "14.00",
           },
