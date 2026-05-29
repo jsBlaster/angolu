@@ -323,6 +323,12 @@ const MENU = {
               "Leblon Cachaça, lime e zucchero bianco",
             price: "8.00",
           },
+        ],
+      },
+
+      {
+        title: "Gin Tonic",
+        items: [
           {
             name: "Gin Tonic",
             description: "Bombay Dry Gin e tonica",
