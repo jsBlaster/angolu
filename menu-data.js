@@ -501,22 +501,22 @@ const MENU = {
       title: "Bollicine & Champagne",
       items: [
         {
-          name: "Prosecco Brut Valdobbiadene DOCG — Bortoluz",
+          name: "Prosecco Brut Valdobbiadene DOCG - Bortoluz",
           description: "Calice € 5,00 · Bottiglia € 22,00",
           price: "5.00 / 22.00",
         },
         {
-          name: "Franciacorta Brut — Lancini",
+          name: "Franciacorta Brut - Lancini",
           description: "Calice € 7,00 · Bottiglia € 40,00",
           price: "7.00 / 40.00",
         },
         {
-          name: "Franciacorta Animante Non Dosato — Barone Pizzini",
+          name: "Franciacorta Animante Non Dosato - Barone Pizzini",
           description: "Bottiglia € 45,00",
           price: "45.00",
         },
         {
-          name: "Franciacorta Cuvée Prestige — Ca’ del Bosco",
+          name: "Franciacorta Cuvée Prestige - Ca’ del Bosco",
           description: "Bottiglia € 50,00",
           price: "50.00",
         },
@@ -526,12 +526,12 @@ const MENU = {
           price: "42.00",
         },
         {
-          name: "Champagne Special Cuvée — Bollinger",
+          name: "Champagne Special Cuvée - Bollinger",
           description: "Bottiglia € 100,00",
           price: "100.00",
         },
         {
-          name: "Champagne — Philipponnat",
+          name: "Champagne - Philipponnat",
           description: "Bottiglia € 80,00",
           price: "80.00",
         },
@@ -541,22 +541,22 @@ const MENU = {
       title: "Vini Bianchi",
       items: [
         {
-          name: "Lugana DOC — Ca’ dei Frati",
+          name: "Lugana DOC - Ca’ dei Frati",
           description: "Calice € 6,00 · Bottiglia € 23,00",
           price: "6.00 / 23.00",
         },
         {
-          name: "Verde Luna IGT — Caminella",
+          name: "Verde Luna IGT - Caminella",
           description: "Calice € 6,00 · Bottiglia € 25,00",
           price: "6.00 / 25.00",
         },
         {
-          name: "Gewürztraminer — Kurtatsch",
+          name: "Gewürztraminer - Kurtatsch",
           description: "Bottiglia € 30,00",
           price: "30.00",
         },
         {
-          name: "Pinot Grigio — Sturm",
+          name: "Pinot Grigio - Sturm",
           description: "Bottiglia € 40,00",
           price: "40.00",
         },
@@ -566,12 +566,12 @@ const MENU = {
       title: "Vini Rosati",
       items: [
         {
-          name: "Rosa dei Frati (Chiaretto) — Ca’ dei Frati",
+          name: "Rosa dei Frati (Chiaretto) - Ca’ dei Frati",
           description: "Calice € 6,00 · Bottiglia € 35,00",
           price: "6.00 / 35.00",
         },
         {
-          name: "Rosé Extra Brut Bio — Barone Pizzini",
+          name: "Rosé Extra Brut Bio - Barone Pizzini",
           description: "Bottiglia € 45,00",
           price: "45.00",
         },
@@ -581,22 +581,22 @@ const MENU = {
       title: "Vini Rossi",
       items: [
         {
-          name: "Valcalepio DOC Rosso — Il Calepino",
+          name: "Valcalepio DOC Rosso - Il Calepino",
           description: "Calice € 5,00 · Bottiglia € 19,00",
           price: "5.00 / 19.00",
         },
         {
-          name: "Ripasso Valpolicella — Monte del Frà",
+          name: "Ripasso Valpolicella - Monte del Frà",
           description: "Calice € 6,00 · Bottiglia € 30,00",
           price: "6.00 / 30.00",
         },
         {
-          name: "Luna Rossa IGP Riserva — Caminella",
+          name: "Luna Rossa IGP Riserva - Caminella",
           description: "Bottiglia € 50,00",
           price: "50.00",
         },
         {
-          name: "Il Bruciato Bolgheri DOC — Antinori",
+          name: "Il Bruciato Bolgheri DOC - Antinori",
           description: "Bottiglia € 60,00",
           price: "60.00",
         },
