@@ -458,7 +458,7 @@ const MENU = {
           {
             name: "Shot Base",
             description: "3 cl",
-            price: "4.00",
+            price: "3.00",
           },
           {
             name: "Shot Premium",
