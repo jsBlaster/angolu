@@ -172,7 +172,7 @@ const MENU = {
           {
             name: "Dell’Angolù",
             description:
-              "Salamella, peperoni e cipolla grigliate e maionese",
+              "Salamella, peperoni, cipolle grigliate e maionese",
             price: "12.00",
           },
           {
