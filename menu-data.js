@@ -475,7 +475,7 @@ const MENU = {
           },
           {
             name: "Santa Teresa 1796",
-            description: "",
+            description: "Rum - 4 cl",
             price: "8.00",
           },
           {
