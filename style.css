@@ -213,8 +213,8 @@ body.menu-page {
 }
 
 .header-nav {
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 36px;
 }
@@ -420,14 +420,11 @@ body.menu-page {
 
 /* ── LANGUAGE TOGGLE ─────────────────────────────────────────────────────── */
 
-.lang-toggle-wrapper {
-  display: flex;
-  justify-content: flex-end;
-  padding: 10px 16px 0;
-  align-self: stretch;
-}
-
 #lang-toggle {
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  z-index: 100;
   background: rgba(255, 255, 255, 0.15);
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 20px;
@@ -441,6 +438,7 @@ body.menu-page {
   align-items: center;
   gap: 5px;
   transition: background 0.15s ease;
+  backdrop-filter: blur(4px);
 }
 
 #lang-toggle:hover {
@@ -449,9 +447,4 @@ body.menu-page {
 
 #lang-toggle strong {
   font-weight: 600;
-}
-
-/* On menu pages the toggle sits inside .header-nav — push it to the far right */
-.header-nav #lang-toggle {
-  justify-self: end;
 }
