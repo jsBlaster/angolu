@@ -428,27 +428,28 @@ body.menu-page {
 }
 
 #lang-toggle {
-  background: rgba(255, 255, 255, 0.15);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 20px;
-  padding: 5px 12px;
-  color: #fff;
+  background: none;
+  border: none;
+  padding: 0;
+  color: rgba(255, 255, 255, 0.65);
   font-family: inherit;
-  font-size: 13px;
-  letter-spacing: 0.03em;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
   cursor: pointer;
   display: flex;
   align-items: center;
-  gap: 5px;
-  transition: background 0.15s ease;
+  gap: 6px;
+  transition: color 0.25s;
 }
 
 #lang-toggle:hover {
-  background: rgba(255, 255, 255, 0.25);
+  color: #fff;
 }
 
 #lang-toggle strong {
-  font-weight: 600;
+  font-weight: 400;
 }
 
 /* On menu pages the toggle sits inside .header-nav — push it to the far right */
