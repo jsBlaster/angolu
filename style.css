@@ -417,3 +417,40 @@ body.menu-page {
     padding: 0 28px 48px;
   }
 }
+
+/* ── LANGUAGE TOGGLE ─────────────────────────────────────────────────────── */
+
+.lang-toggle-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 16px 0;
+}
+
+#lang-toggle {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  padding: 5px 12px;
+  color: #fff;
+  font-family: inherit;
+  font-size: 13px;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: background 0.15s ease;
+}
+
+#lang-toggle:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+#lang-toggle strong {
+  font-weight: 600;
+}
+
+/* On menu pages the toggle sits inside .header-nav — push it to the far right */
+.header-nav #lang-toggle {
+  margin-left: auto;
+}
