@@ -71,7 +71,9 @@ function renderMenu(category) {
 
     const titleEl = document.createElement('h2');
     titleEl.className = 'section-title';
-    titleEl.textContent = section.title;
+    titleEl.textContent = typeof section.title === 'object'
+      ? (section.title[currentLang] || section.title.it)
+      : section.title;
     sectionEl.appendChild(titleEl);
 
     const listEl = document.createElement('ul');
@@ -86,7 +88,9 @@ function renderMenu(category) {
 
       const nameEl = document.createElement('span');
       nameEl.className = 'item-name';
-      nameEl.textContent = item.name;
+      nameEl.textContent = typeof item.name === 'object'
+        ? (item.name[currentLang] || item.name.it)
+        : item.name;
 
       const priceEl = document.createElement('span');
       priceEl.className = 'item-price';
@@ -96,10 +100,13 @@ function renderMenu(category) {
       headerEl.appendChild(priceEl);
       itemEl.appendChild(headerEl);
 
-      if (item.description) {
+      const desc = typeof item.description === 'object'
+        ? (item.description[currentLang] || item.description.it)
+        : item.description;
+      if (desc) {
         const descEl = document.createElement('p');
         descEl.className = 'item-desc';
-        descEl.textContent = item.description;
+        descEl.textContent = desc;
         itemEl.appendChild(descEl);
       }
 
