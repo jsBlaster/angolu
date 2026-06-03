@@ -11,13 +11,15 @@ let currentLang = SUPPORTED_LANGS.includes(storedLang)
 let currentCategory = null;
 
 const UI_STRINGS = {
-  backLink: { it: "home", en: "home" },
-  vegetarian: { it: "🍃 vegetariano", en: "🍃 vegetarian" },
-  frozen: { it: "* prodotto congelato all'origine", en: "* frozen at source" },
-  allergies: {
-    it: "Per eventuali intolleranze alimentari, rivolgersi al personale.",
-    en: "Please inform staff of any food allergies or intolerances.",
-  },
+  backLink:       { it: "home",         en: "home" },
+  vegetarian:     { it: "🍃 vegetariano", en: "🍃 vegetarian" },
+  frozen:         { it: "* prodotto congelato all'origine", en: "* frozen at source" },
+  allergies:      { it: "Per eventuali intolleranze alimentari, rivolgersi al personale.",
+                    en: "Please inform staff of any food allergies or intolerances." },
+  catFood:        { it: "Food",         en: "Food" },
+  catDrink:       { it: "Drink",        en: "Drink" },
+  catCantina:     { it: "Cantina",      en: "Cellar" },
+  catCaffetteria: { it: "Caffetteria",  en: "Coffee" },
 };
 
 function setLang(lang) {
