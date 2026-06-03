@@ -4,7 +4,8 @@ const SUPPORTED_LANGS = ['it', 'en'];
 const browserLang = navigator.language.slice(0, 2);
 const DEFAULT_LANG = SUPPORTED_LANGS.includes(browserLang) ? browserLang : 'it';
 
-let currentLang = localStorage.getItem('lang') || DEFAULT_LANG;
+const storedLang = localStorage.getItem('lang');
+let currentLang = SUPPORTED_LANGS.includes(storedLang) ? storedLang : DEFAULT_LANG;
 let currentCategory = null;
 
 const UI_STRINGS = {
