@@ -424,7 +424,7 @@ const MENU = {
             },
             description: {
               it: "Alla spina — 4,8% - 40cl",
-              en: "On tap — 4.8% - 40cl",
+              en: "Draft beer — 4.8% - 40cl",
             },
             price: "5.00",
           },
