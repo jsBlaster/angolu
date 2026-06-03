@@ -70,7 +70,7 @@ const MENU = {
             },
             description: {
               it: "Rucola e grana padano",
-              en: "Rocket and Grana Padano",
+              en: "Arugula and Grana Padano",
             },
             price: "14.00",
           },
