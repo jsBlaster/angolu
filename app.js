@@ -47,7 +47,13 @@ function initLangToggle() {
   btn.setAttribute('aria-label', 'Switch language');
   btn.addEventListener('click', () => setLang(currentLang === 'it' ? 'en' : 'it'));
 
-  document.body.appendChild(btn);
+  const nav = document.querySelector('.header-nav');
+  const wrapper = document.querySelector('.lang-toggle-wrapper');
+  if (nav) {
+    nav.appendChild(btn);
+  } else if (wrapper) {
+    wrapper.appendChild(btn);
+  }
 
   renderUI();
 }
