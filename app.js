@@ -18,7 +18,7 @@ const UI_STRINGS = {
                     en: "Please inform staff of any food allergies or intolerances." },
   catFood:        { it: "Food",         en: "Food" },
   catDrink:       { it: "Drink",        en: "Drink" },
-  catCantina:     { it: "Cantina",      en: "Cellar" },
+  catCantina:     { it: "Cantina",      en: "Winery" },
   catCaffetteria: { it: "Caffetteria",  en: "Coffee" },
 };
 
