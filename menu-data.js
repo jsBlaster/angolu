@@ -315,7 +315,7 @@ const MENU = {
               it: "Carpaccio di polpo, stracciatella, pesto di basilico",
               en: "Octopus carpaccio, stracciatella, basil pesto",
             },
-            price: "14.00",
+            price: "15.00",
           },
           {
             name: {
@@ -326,7 +326,7 @@ const MENU = {
               it: "Straccetti di pollo, insalata coleslaw e maionese al limone",
               en: "Shredded chicken, coleslaw and lemon mayo",
             },
-            price: "12.00",
+            price: "13.00",
           },
           {
             name: {
