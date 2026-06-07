@@ -145,7 +145,7 @@ const MENU = {
             },
             description: {
               it: "Pomodoro, stracciatella e basilico",
-              en: "Tomato, stracciatella, and basil",
+              en: "Tomato, stracciatella and basil",
             },
             price: "12.00",
           },
@@ -297,11 +297,11 @@ const MENU = {
         items: [
           {
             name: {
-              it: "Panino con polpo 🐟",
+              it: "Panino con piovra 🐟",
               en: "Octopus sandwich 🐟",
             },
             description: {
-              it: "Polpo, stracciatella, pesto di basilico",
+              it: "Piovra, stracciatella, pesto di basilico",
               en: "Octopus, stracciatella, basil pesto",
             },
             price: "14.00",
