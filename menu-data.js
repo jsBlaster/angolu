@@ -323,8 +323,8 @@ const MENU = {
               en: "Pulled Chicken",
             },
             description: {
-              it: "Straccetti di pollo, insalata coleslaw e maionese al limone",
-              en: "Shredded chicken, coleslaw and lemon mayo",
+              it: "Straccetti di pollo, insalata coleslaw, insalata iceberg e maionese al limone",
+              en: "Shredded chicken, coleslaw, iceberg lettuce and lemon mayo",
             },
             price: "13.00",
           },
@@ -345,8 +345,8 @@ const MENU = {
               en: "Pulled Pork",
             },
             description: {
-              it: "Carne sfilacciata di maiale, jalapeno, cipolla caramellata, salsa BBQ",
-              en: "Pulled pork, jalapeño, caramelised onion, BBQ sauce",
+              it: "Carne sfilacciata di maiale, jalapeno, cipolla caramellata, insalata iceberg, salsa BBQ",
+              en: "Pulled pork, jalapeño, caramelised onion, iceberg lettuce, BBQ sauce",
             },
             price: "13.00",
           },
