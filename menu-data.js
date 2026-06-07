@@ -140,12 +140,12 @@ const MENU = {
           },
           {
             name: {
-              it: "Gnocchi al ragù di polpo 🐟",
-              en: "Gnocchi with octopus ragù 🐟",
+              it: "Gnocchi",
+              en: "Gnocchi",
             },
             description: {
-              it: "",
-              en: "",
+              it: "Pomodoro, stracciatella e basilico",
+              en: "Tomato, stracciatella, and basil",
             },
             price: "13.00",
           },
