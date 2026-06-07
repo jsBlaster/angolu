@@ -54,6 +54,17 @@ const MENU = {
           },
           {
             name: {
+              it: "Insalata di piovra",
+              en: "Octopus Salad",
+            },
+            description: {
+              it: "",
+              en: "",
+            },
+            price: "14.00",
+          },
+          {
+            name: {
               it: "Vitello tonnato",
               en: "Vitello tonnato",
             },
