@@ -147,7 +147,7 @@ const MENU = {
               it: "",
               en: "",
             },
-            price: "12.00",
+            price: "13.00",
           },
           {
             name: {
@@ -158,7 +158,7 @@ const MENU = {
               it: "Pomodoro, stracciatella e basilico",
               en: "Tomato, stracciatella and basil",
             },
-            price: "12.00",
+            price: "13.00",
           },
         ],
       },
