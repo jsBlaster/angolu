@@ -297,12 +297,12 @@ const MENU = {
         items: [
           {
             name: {
-              it: "Panino con piovra 🐟",
+              it: "Panino con polpo 🐟",
               en: "Octopus sandwich 🐟",
             },
             description: {
-              it: "Piovra, stracciatella, pesto di basilico",
-              en: "Octopus, stracciatella, basil pesto",
+              it: "Carpaccio di polpo, stracciatella, pesto di basilico",
+              en: "Octopus carpaccio, stracciatella, basil pesto",
             },
             price: "14.00",
           },
