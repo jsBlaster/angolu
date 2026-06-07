@@ -58,10 +58,10 @@ const MENU = {
               en: "Octopus Salad",
             },
             description: {
-              it: "",
-              en: "",
+              it: "Patate, pomodorini e olive",
+              en: "Potatoes, cherry tomatoes, and olives",
             },
-            price: "14.00",
+            price: "15.00",
           },
           {
             name: {
