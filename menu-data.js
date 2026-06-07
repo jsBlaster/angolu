@@ -61,7 +61,7 @@ const MENU = {
               it: "Patate, pomodorini e olive",
               en: "Potatoes, cherry tomatoes, and olives",
             },
-            price: "15.00",
+            price: "16.00",
           },
           {
             name: {
