@@ -43,8 +43,8 @@ const MENU = {
           },
           {
             name: {
-              it: "Tartare tonno 🐟",
-              en: "Tuna tartare 🐟",
+              it: "Tartare tonno* 🐟",
+              en: "Tuna tartare* 🐟",
             },
             description: {
               it: "Porri e olio al limone",
