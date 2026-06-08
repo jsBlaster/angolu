@@ -370,7 +370,7 @@ const MENU = {
               it: "Mozzarella, verdure grigliate, pomodoro e origano",
               en: "Mozzarella, grilled vegetables, tomato and oregano",
             },
-            price: "10.00",
+            price: "11.00",
           },
         ],
       },
