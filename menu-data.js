@@ -21,17 +21,6 @@ const MENU = {
           },
           {
             name: {
-              it: "Crudo di Parma e melone",
-              en: "Parma ham & melon",
-            },
-            description: {
-              it: "",
-              en: "",
-            },
-            price: "15.00",
-          },
-          {
-            name: {
               it: "Tartare manzo",
               en: "Beef tartare",
             },
