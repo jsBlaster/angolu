@@ -191,17 +191,6 @@ const MENU = {
             },
             price: "22.00",
           },
-          {
-            name: {
-              it: "Grigliata mista",
-              en: "Mixed grill",
-            },
-            description: {
-              it: "Spiedini, salamella e tagliata",
-              en: "Skewers, salamella and tagliata",
-            },
-            price: "24.00",
-          },
         ],
       },
 
