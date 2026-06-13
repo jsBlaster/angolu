@@ -91,8 +91,8 @@ const MENU = {
               en: "Meat skewers (2)",
             },
             description: {
-              it: "con patatine fritte",
-              en: "with french fries",
+              it: "Con patatine fritte",
+              en: "With french fries",
             },
             price: "13.00",
           },
