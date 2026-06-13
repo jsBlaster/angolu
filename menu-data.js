@@ -107,6 +107,17 @@ const MENU = {
             },
             price: "12.00",
           },
+          {
+            name: {
+              it: "Spiedini di carne (2)",
+              en: "Meat skewers (2)",
+            },
+            description: {
+              it: "",
+              en: "",
+            },
+            price: "12.00",
+          },
         ],
       },
 
@@ -151,49 +162,7 @@ const MENU = {
           },
         ],
       },
-
       {
-        title: {
-          it: "Secondi piatti + patatine*",
-          en: "Main courses + fries*",
-        },
-        items: [
-          {
-            name: {
-              it: "Spiedini di carne (2)",
-              en: "Meat skewers (2)",
-            },
-            description: {
-              it: "",
-              en: "",
-            },
-            price: "12.00",
-          },
-          {
-            name: {
-              it: "Salamella",
-              en: "Salamella",
-            },
-            description: {
-              it: "",
-              en: "",
-            },
-            price: "10.00",
-          },
-          {
-            name: {
-              it: "Tagliata di bovino adulto",
-              en: "Beef tagliata",
-            },
-            description: {
-              it: "",
-              en: "",
-            },
-            price: "22.00",
-          },
-        ],
-      },
-
       {
         title: {
           it: "Contorni",
