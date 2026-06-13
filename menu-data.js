@@ -32,17 +32,6 @@ const MENU = {
           },
           {
             name: {
-              it: "Tartare tonno* 🐟",
-              en: "Tuna tartare* 🐟",
-            },
-            description: {
-              it: "Porri e olio al limone",
-              en: "Leeks and lemon oil",
-            },
-            price: "16.00",
-          },
-          {
-            name: {
               it: "Insalata di piovra",
               en: "Octopus Salad",
             },
