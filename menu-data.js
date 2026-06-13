@@ -99,7 +99,6 @@ const MENU = {
         ],
       },
       {
-      {
         title: {
           it: "Contorni",
           en: "Sides",
