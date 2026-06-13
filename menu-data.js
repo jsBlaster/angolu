@@ -10,17 +10,6 @@ const MENU = {
         items: [
           {
             name: {
-              it: "Tagliere misto",
-              en: "Mixed charcuterie board",
-            },
-            description: {
-              it: "Selezione di salumi e formaggi bergamaschi",
-              en: "Selection of Bergamo cured meats and cheeses",
-            },
-            price: "20.00",
-          },
-          {
-            name: {
               it: "Tartare manzo",
               en: "Beef tartare",
             },
