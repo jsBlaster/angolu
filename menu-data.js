@@ -92,7 +92,7 @@ const MENU = {
             },
             description: {
               it: "con patatine fritte",
-              en: "con patatine fritte",
+              en: "with french fries",
             },
             price: "13.00",
           },
