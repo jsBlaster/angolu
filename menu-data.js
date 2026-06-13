@@ -120,48 +120,6 @@ const MENU = {
           },
         ],
       },
-
-      {
-        title: {
-          it: "Primi piatti di pasta fresca",
-          en: "Fresh pasta",
-        },
-        items: [
-          {
-            name: {
-              it: "Casoncelli",
-              en: "Casoncelli",
-            },
-            description: {
-              it: "",
-              en: "",
-            },
-            price: "13.00",
-          },
-          {
-            name: {
-              it: "Scarpinocc 🍃",
-              en: "Scarpinocc 🍃",
-            },
-            description: {
-              it: "",
-              en: "",
-            },
-            price: "13.00",
-          },
-          {
-            name: {
-              it: "Gnocchi",
-              en: "Gnocchi",
-            },
-            description: {
-              it: "Pomodoro, stracciatella e basilico",
-              en: "Tomato, stracciatella and basil",
-            },
-            price: "13.00",
-          },
-        ],
-      },
       {
       {
         title: {
