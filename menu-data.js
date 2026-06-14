@@ -1133,39 +1133,6 @@ const MENU = {
             },
             price: "1.80/2.20",
           },
-          {
-            name: {
-              it: "Caffè shakerato",
-              en: "Shaken espresso",
-            },
-            description: {
-              it: "Classico o vaniglia",
-              en: "Classic or vanilla",
-            },
-            price: "4.50",
-          },
-          {
-            name: {
-              it: "Cold brew coffee",
-              en: "Cold brew coffee",
-            },
-            description: {
-              it: "Caffè freddo estratto a freddo",
-              en: "Cold-extracted cold coffee",
-            },
-            price: "4.00",
-          },
-          {
-            name: {
-              it: "Iced cappuccino",
-              en: "Iced cappuccino",
-            },
-            description: {
-              it: "Cappuccino freddo",
-              en: "Cold cappuccino",
-            },
-            price: "3.50",
-          },
         ],
       },
 
