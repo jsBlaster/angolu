@@ -1120,7 +1120,7 @@ const MENU = {
               it: "Tazza piccola/grande",
               en: "Small/large cup",
             },
-            price: "1.60/2.00",
+            price: "2.00",
           },
           {
             name: {
@@ -1131,7 +1131,7 @@ const MENU = {
               it: "Tazza piccola/grande",
               en: "Small/large cup",
             },
-            price: "1.80/2.20",
+            price: "2.00",
           },
         ],
       },
