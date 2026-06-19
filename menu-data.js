@@ -219,7 +219,7 @@ const MENU = {
               it: "Hamburger di manzo, cheddar, pomodoro, bacon croccante, insalata",
               en: "Beef patty, cheddar, tomato, crispy bacon, lettuce",
             },
-            price: "13.00",
+            price: "14.00",
           },
           {
             name: {
