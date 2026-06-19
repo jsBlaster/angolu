@@ -208,7 +208,7 @@ const MENU = {
               it: "Straccetti di pollo, insalata coleslaw e maionese al limone",
               en: "Shredded chicken, coleslaw and lemon mayo",
             },
-            price: "13.00",
+            price: "14.00",
           },
           {
             name: {
@@ -230,7 +230,7 @@ const MENU = {
               it: "Carne sfilacciata di maiale, jalapeno, cipolla caramellata, insalata iceberg e salsa BBQ",
               en: "Pulled pork, jalapeño, caramelised onion, iceberg lettuce and BBQ sauce",
             },
-            price: "13.00",
+            price: "14.00",
           },
           {
             name: {
