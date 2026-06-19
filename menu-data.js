@@ -72,7 +72,7 @@ const MENU = {
               it: "",
               en: "",
             },
-            price: "10.00",
+            price: "11.00",
           },
           {
             name: {
