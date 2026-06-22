@@ -126,13 +126,6 @@ function renderMenu(category) {
       headerEl.appendChild(priceEl);
       itemEl.appendChild(headerEl);
 
-      if (item.allergens && item.allergens.length > 0) {
-        const allergensEl = document.createElement("p");
-        allergensEl.className = "item-allergens";
-        allergensEl.textContent = "(" + item.allergens.join(", ") + ")";
-        itemEl.appendChild(allergensEl);
-      }
-
       const desc =
         item.description !== null && typeof item.description === "object"
           ? item.description[currentLang] || item.description.it
@@ -142,6 +135,13 @@ function renderMenu(category) {
         descEl.className = "item-desc";
         descEl.textContent = desc;
         itemEl.appendChild(descEl);
+      }
+
+      if (item.allergens && item.allergens.length > 0) {
+        const allergensEl = document.createElement("p");
+        allergensEl.className = "item-allergens";
+        allergensEl.textContent = "(" + item.allergens.join(", ") + ")";
+        itemEl.appendChild(allergensEl);
       }
 
       listEl.appendChild(itemEl);
