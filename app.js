@@ -20,6 +20,21 @@ const UI_STRINGS = {
   catDrink:       { it: "Drink",        en: "Drink" },
   catCantina:     { it: "Cantina",      en: "Winery" },
   catCaffetteria: { it: "Caffetteria",  en: "Coffee" },
+  allergenTitle: { it: "Allergeni",                      en: "Allergens" },
+  a1:  { it: "Cereali contenenti glutine",               en: "Cereals containing gluten" },
+  a2:  { it: "Crostacei",                                en: "Crustaceans" },
+  a3:  { it: "Uova",                                     en: "Eggs" },
+  a4:  { it: "Pesce",                                    en: "Fish" },
+  a5:  { it: "Arachidi",                                 en: "Peanuts" },
+  a6:  { it: "Soia",                                     en: "Soybeans" },
+  a7:  { it: "Latte",                                    en: "Milk" },
+  a8:  { it: "Frutta a guscio",                          en: "Nuts" },
+  a9:  { it: "Sedano",                                   en: "Celery" },
+  a10: { it: "Senape",                                   en: "Mustard" },
+  a11: { it: "Semi di sesamo",                           en: "Sesame seeds" },
+  a12: { it: "Anidride solforosa e solfiti",             en: "Sulphur dioxide and sulphites" },
+  a13: { it: "Lupini",                                   en: "Lupin" },
+  a14: { it: "Molluschi",                                en: "Molluscs" },
 };
 
 function setLang(lang) {
@@ -110,6 +125,13 @@ function renderMenu(category) {
       headerEl.appendChild(nameEl);
       headerEl.appendChild(priceEl);
       itemEl.appendChild(headerEl);
+
+      if (item.allergens && item.allergens.length > 0) {
+        const allergensEl = document.createElement("p");
+        allergensEl.className = "item-allergens";
+        allergensEl.textContent = "(" + item.allergens.join(", ") + ")";
+        itemEl.appendChild(allergensEl);
+      }
 
       const desc =
         item.description !== null && typeof item.description === "object"
