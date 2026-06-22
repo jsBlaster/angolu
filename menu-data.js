@@ -18,6 +18,7 @@ const MENU = {
               en: "Egg yolk and honey mustard",
             },
             price: "15.00",
+            allergens: [3, 10],
           },
           {
             name: {
@@ -29,6 +30,7 @@ const MENU = {
               en: "Potatoes, cherry tomatoes, and olives",
             },
             price: "16.00",
+            allergens: [14],
           },
           {
             name: {
@@ -40,6 +42,7 @@ const MENU = {
               en: "",
             },
             price: "14.00",
+            allergens: [3, 4],
           },
           {
             name: {
@@ -51,6 +54,7 @@ const MENU = {
               en: "Arugula and Grana Padano",
             },
             price: "14.00",
+            allergens: [7],
           },
           {
             name: {
@@ -62,6 +66,7 @@ const MENU = {
               en: "",
             },
             price: "12.00",
+            allergens: [1, 7],
           },
           {
             name: {
@@ -73,6 +78,7 @@ const MENU = {
               en: "",
             },
             price: "11.00",
+            allergens: [7],
           },
           {
             name: {
@@ -84,6 +90,7 @@ const MENU = {
               en: "Grilled chicken, tomatoes, Grana Padano, croutons and yogurt dressing",
             },
             price: "12.00",
+            allergens: [1, 7],
           },
           {
             name: {
@@ -95,6 +102,7 @@ const MENU = {
               en: "With french fries",
             },
             price: "13.00",
+            allergens: [],
           },
         ],
       },
@@ -114,6 +122,7 @@ const MENU = {
               en: "",
             },
             price: "6.00",
+            allergens: [],
           },
           {
             name: {
@@ -125,6 +134,7 @@ const MENU = {
               en: "",
             },
             price: "7.00",
+            allergens: [],
           },
           {
             name: {
@@ -136,6 +146,7 @@ const MENU = {
               en: "",
             },
             price: "5.00",
+            allergens: [],
           },
         ],
       },
@@ -156,6 +167,7 @@ const MENU = {
               en: "",
             },
             price: "6.00",
+            allergens: [],
           },
           {
             name: {
@@ -167,6 +179,7 @@ const MENU = {
               en: "",
             },
             price: "10.00",
+            allergens: [7],
           },
           {
             name: {
@@ -178,6 +191,7 @@ const MENU = {
               en: "",
             },
             price: "12.00",
+            allergens: [],
           },
         ],
       },
@@ -198,6 +212,7 @@ const MENU = {
               en: "Octopus carpaccio, stracciatella, basil pesto",
             },
             price: "15.00",
+            allergens: [1, 7, 14],
           },
           {
             name: {
@@ -209,6 +224,7 @@ const MENU = {
               en: "Shredded chicken, coleslaw and lemon mayo",
             },
             price: "14.00",
+            allergens: [1, 3],
           },
           {
             name: {
@@ -220,6 +236,7 @@ const MENU = {
               en: "Beef patty, cheddar, tomato, crispy bacon, lettuce",
             },
             price: "14.00",
+            allergens: [1, 7],
           },
           {
             name: {
@@ -231,6 +248,7 @@ const MENU = {
               en: "Pulled pork, jalapeño, caramelised onion, iceberg lettuce and BBQ sauce",
             },
             price: "14.00",
+            allergens: [1],
           },
           {
             name: {
@@ -242,6 +260,7 @@ const MENU = {
               en: "Salamella, peppers, grilled onions and mayo",
             },
             price: "12.00",
+            allergens: [1, 3],
           },
           {
             name: {
@@ -253,6 +272,7 @@ const MENU = {
               en: "Mozzarella, grilled vegetables, tomato and oregano",
             },
             price: "11.00",
+            allergens: [1, 7],
           },
         ],
       },
@@ -273,6 +293,7 @@ const MENU = {
               en: "",
             },
             price: "6.00",
+            allergens: [1, 3, 7],
           },
           {
             name: {
@@ -284,6 +305,7 @@ const MENU = {
               en: "",
             },
             price: "6.00",
+            allergens: [1, 3, 7, 8],
           },
           {
             name: {
@@ -295,6 +317,7 @@ const MENU = {
               en: "",
             },
             price: "6.00",
+            allergens: [],
           },
         ],
       },
