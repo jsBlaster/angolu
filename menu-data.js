@@ -90,7 +90,7 @@ const MENU = {
               en: "Grilled chicken, tomatoes, Grana Padano, croutons and yogurt dressing",
             },
             price: "12.00",
-            allergens: [1, 7],
+            allergens: [1, 3, 7, 9, 10],
           },
           {
             name: {
