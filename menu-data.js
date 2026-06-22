@@ -42,7 +42,7 @@ const MENU = {
               en: "",
             },
             price: "15.00",
-            allergens: [3, 4],
+            allergens: [3, 4, 7, 10],
           },
           {
             name: {
