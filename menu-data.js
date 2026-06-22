@@ -15,7 +15,7 @@ const MENU = {
             },
             description: {
               it: "Tuorlo e senape al miele",
-              en: "Egg yolk and honey mustards",
+              en: "Egg yolk and honey mustard",
             },
             price: "16.00",
             allergens: [3, 10],
