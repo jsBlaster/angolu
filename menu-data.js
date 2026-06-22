@@ -1159,7 +1159,7 @@ const MENU = {
         ],
       },
 
-      {{
+      {
         title: {
           it: "Dolci",
           en: "Desserts",
