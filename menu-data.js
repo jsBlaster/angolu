@@ -212,7 +212,7 @@ const MENU = {
               en: "Octopus carpaccio, stracciatella, basil pesto",
             },
             price: "16.00",
-            allergens: [1, 7, 14],
+            allergens: [1, 7, 8, 14],
           },
           {
             name: {
@@ -248,7 +248,7 @@ const MENU = {
               en: "Pulled pork, jalapeño, caramelised onion, iceberg lettuce and BBQ sauce",
             },
             price: "14.00",
-            allergens: [1],
+            allergens: [1, 10, 12],
           },
           {
             name: {
