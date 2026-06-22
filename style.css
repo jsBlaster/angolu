@@ -117,7 +117,7 @@ body.home {
   justify-content: center;
   padding: 20px 52px;
   border: 1px solid rgba(245, 240, 232, 0.28);
-  min-width: 180px;
+  min-width: 170px;
   cursor: pointer;
   transition: border-color 0.4s;
 }
