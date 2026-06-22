@@ -371,7 +371,7 @@ body.menu-page {
 
   .cta-card {
     padding: 18px 32px;
-    min-width: unset;
+    min-width: 170px;
   }
 
   .menu-header {
