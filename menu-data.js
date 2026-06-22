@@ -17,7 +17,7 @@ const MENU = {
               it: "Tuorlo e senape al miele",
               en: "Egg yolk and honey mustard",
             },
-            price: "15.00",
+            price: "16.00",
             allergens: [3, 10],
           },
           {
@@ -41,7 +41,7 @@ const MENU = {
               it: "",
               en: "",
             },
-            price: "14.00",
+            price: "15.00",
             allergens: [3, 4],
           },
           {
@@ -53,7 +53,7 @@ const MENU = {
               it: "Rucola e grana padano",
               en: "Arugula and Grana Padano",
             },
-            price: "14.00",
+            price: "15.00",
             allergens: [7],
           },
           {
@@ -77,7 +77,7 @@ const MENU = {
               it: "",
               en: "",
             },
-            price: "11.00",
+            price: "12.00",
             allergens: [7],
           },
           {
@@ -101,7 +101,7 @@ const MENU = {
               it: "Con patatine fritte",
               en: "With french fries",
             },
-            price: "13.00",
+            price: "15.00",
             allergens: [],
           },
         ],
@@ -211,7 +211,7 @@ const MENU = {
               it: "Carpaccio di polpo, stracciatella, pesto di basilico",
               en: "Octopus carpaccio, stracciatella, basil pesto",
             },
-            price: "15.00",
+            price: "16.00",
             allergens: [1, 7, 14],
           },
           {
@@ -271,7 +271,7 @@ const MENU = {
               it: "Mozzarella, verdure grigliate, pomodoro e origano",
               en: "Mozzarella, grilled vegetables, tomato and oregano",
             },
-            price: "11.00",
+            price: "12.00",
             allergens: [1, 7],
           },
         ],
