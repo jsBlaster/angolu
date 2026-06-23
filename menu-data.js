@@ -309,8 +309,8 @@ const MENU = {
           },
           {
             name: {
-              it: "Dolce del giorno",
-              en: "Dessert of the day",
+              it: "Tiramisù",
+              en: "Tiramisu",
             },
             description: {
               it: "",
@@ -318,6 +318,30 @@ const MENU = {
             },
             price: "6.00",
             allergens: [],
+          },
+          {
+            name: {
+              it: "Tiramisù",
+              en: "Tiramisu",
+            },
+            description: {
+              it: "",
+              en: "",
+            },
+            price: "6.00",
+            allergens: [1, 3, 7],
+          },
+          {
+            name: {
+              it: "Torta di mele",
+              en: "Apple Cake",
+            },
+            description: {
+              it: "",
+              en: "",
+            },
+            price: "6.00",
+            allergens: [1, 7],
           },
         ],
       },
