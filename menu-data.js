@@ -317,18 +317,6 @@ const MENU = {
               en: "",
             },
             price: "6.00",
-            allergens: [],
-          },
-          {
-            name: {
-              it: "Tiramisù",
-              en: "Tiramisu",
-            },
-            description: {
-              it: "",
-              en: "",
-            },
-            price: "6.00",
             allergens: [1, 3, 7],
           },
           {
