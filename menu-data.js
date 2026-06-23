@@ -329,7 +329,7 @@ const MENU = {
               en: "",
             },
             price: "6.00",
-            allergens: [1, 7],
+            allergens: [1, 3, 7],
           },
           {
             name: {
@@ -1235,7 +1235,7 @@ const MENU = {
               en: "",
             },
             price: "6.00",
-            allergens: [1, 7],
+            allergens: [1, 3, 7],
           },
           {
             name: {
