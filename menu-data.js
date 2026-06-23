@@ -343,6 +343,18 @@ const MENU = {
             price: "6.00",
             allergens: [1, 7],
           },
+          {
+            name: {
+              it: "Torta pere e cioccolato",
+              en: "Pear and Chocolate Cake",
+            },
+            description: {
+              it: "",
+              en: "",
+            },
+            price: "6.00",
+            allergens: [1, 3, 6, 7],
+          },
         ],
       },
     ],
