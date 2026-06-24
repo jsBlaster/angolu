@@ -395,26 +395,42 @@ body.menu-page {
   }
 }
 
-.menu-legend {
+.menu-footer {
   max-width: 720px;
   margin: 0 auto;
   padding: 0 52px 60px;
-  display: flex;
-  gap: 24px;
   font-family: var(--font-body);
-  font-size: 13px;
-  color: rgba(0, 0, 0, 0.45);
-  letter-spacing: 0.02em;
 }
 
-.menu-legend span {
+.footer-info {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   gap: 6px;
+  margin-bottom: 20px;
+}
+
+.footer-info span {
+  font-size: 13px;
+  font-weight: 400;
+  color: rgba(56, 53, 50, 0.7);
+  line-height: 1.4;
+}
+
+.footer-notes {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.footer-notes > span {
+  font-size: 10px;
+  font-weight: 300;
+  color: rgba(56, 53, 50, 0.4);
+  line-height: 1.6;
 }
 
 @media (max-width: 600px) {
-  .menu-legend {
+  .menu-footer {
     padding: 0 28px 48px;
   }
 }
@@ -471,31 +487,48 @@ body.menu-page {
 }
 
 .allergen-list {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 0 52px 40px;
+  margin-top: 8px;
   font-family: var(--font-body);
-  font-size: 13px;
-  color: rgba(0, 0, 0, 0.45);
 }
 
 .allergen-list summary {
   cursor: pointer;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 400;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  padding-bottom: 12px;
+  color: rgba(56, 53, 50, 0.4);
   user-select: none;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 2px 0;
+}
+
+.allergen-list summary::-webkit-details-marker {
+  display: none;
+}
+
+.allergen-list summary::before {
+  content: "▸";
+  font-size: 11px;
+  display: inline-block;
+  transition: transform 0.15s;
+  color: rgba(56, 53, 50, 0.35);
+}
+
+.allergen-list[open] summary::before {
+  transform: rotate(90deg);
 }
 
 .allergen-items {
-  padding-left: 20px;
-  line-height: 1.9;
-}
-
-@media (max-width: 600px) {
-  .allergen-list {
-    padding: 0 28px 32px;
-  }
+  margin-top: 8px;
+  padding-left: 12px;
+  columns: 2;
+  column-gap: 20px;
+  font-size: 10px;
+  font-weight: 300;
+  color: rgba(56, 53, 50, 0.4);
+  line-height: 2;
 }
