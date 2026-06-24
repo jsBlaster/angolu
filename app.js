@@ -13,11 +13,6 @@ let currentCategory = null;
 const UI_STRINGS = {
   backLink: { it: "home", en: "home" },
   vegetarian: { it: "🍃 vegetariano", en: "🍃 vegetarian" },
-  coperto: { it: "🪑 Coperto 2,50 €", en: "🪑 Cover charge €2.50" },
-  variation: {
-    it: "Ogni variazione degli ingredienti comporta un supplemento di 2 €",
-    en: "Any change to ingredients incurs a €2 supplement",
-  },
   frozen: {
     it: "* In mancanza di prodotto fresco può essere utilizzato un prodotto surgelato all'origine",
     en: "* Fresh product may be substituted with frozen at source when unavailable",
