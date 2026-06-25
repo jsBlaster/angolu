@@ -395,8 +395,8 @@ const MENU = {
               en: "Concarena - Roccia",
             },
             description: {
-              it: "Strong Lager - 7,5% - 40cl",
-              en: "Strong Lager - 7.5% - 40cl",
+              it: "Strong Lager - 8,2% - 40cl",
+              en: "Strong Lager - 8.2% - 40cl",
             },
             price: "6.00",
           },
