@@ -1116,7 +1116,7 @@ const MENU = {
           {
             name: {
               it: "Espresso / Espresso decaffeinato",
-              en: "Espresso / Decaf espresso",
+              en: "Espresso / Decaffeinated espresso",
             },
             description: {
               it: "",
