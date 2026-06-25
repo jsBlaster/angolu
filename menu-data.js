@@ -362,8 +362,8 @@ const MENU = {
               en: "Concarena - Barbabianca",
             },
             description: {
-              it: "Birra artigianale weiss locale - 5,2% - 40cl",
-              en: "Local craft weiss beer - 5.2% - 40cl",
+              it: "Birra artigianale Blanche - 5,2% - 40cl",
+              en: "Craft beer Blanche - 5.2% - 40cl",
             },
             price: "6.00",
           },
@@ -373,8 +373,8 @@ const MENU = {
               en: "Via Priula - Bacio",
             },
             description: {
-              it: "Birra artigianale blanche, fresca e agrumata - IPA gluten free 4,9% - 40cl",
-              en: "Craft blanche beer, fresh and citrusy - gluten free IPA 4.9% - 40cl",
+              it: "Birra artigianale America Pale Ale - gluten free 4,9% - 40cl",
+              en: "America Pale Ale Craft Beer - Gluten Free 4.9% - 40cl",
             },
             price: "6.00",
           },
@@ -384,8 +384,8 @@ const MENU = {
               en: "Via Priula - Dubek",
             },
             description: {
-              it: "Birra artigianale rossa, con note di malto e caramello - 7,5% - 40cl",
-              en: "Craft red beer, with malt and caramel notes - 7.5% - 40cl",
+              it: "Birra artigianale rossa, Doppelbock - 7,5% - 40cl",
+              en: "Craft red beer, Doppelbock - 7.5% - 40cl",
             },
             price: "6.00",
           },
