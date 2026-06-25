@@ -1137,6 +1137,17 @@ const MENU = {
           },
           {
             name: {
+              it: "Caffè corretto",
+              en: "Coffee with a shot of liquor",
+            },
+            description: {
+              it: "",
+              en: "",
+            },
+            price: "2.00",
+          },
+          {
+            name: {
               it: "Cappuccino",
               en: "Cappuccino",
             },
