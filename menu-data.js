@@ -773,7 +773,7 @@ const MENU = {
               it: "Amaro Montenegro · Amaro del Capo · Braulio · Anima Nera · Limoncello della Casa · Sambuca · Baileys - 5 cl",
               en: "Amaro Montenegro · Amaro del Capo · Braulio · Anima Nera · House Limoncello · Sambuca · Baileys — 5 cl",
             },
-            price: "4.00",
+            price: "5.00",
           },
           {
             name: {
