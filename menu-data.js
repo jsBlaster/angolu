@@ -828,7 +828,7 @@ const MENU = {
               it: "Distillati & Whisky - 4 cl",
               en: "Spirits & Whisky — 4 cl",
             },
-            price: "5.00",
+            price: "6.00",
           },
           {
             name: {
