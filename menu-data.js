@@ -631,8 +631,8 @@ const MENU = {
               en: "Malfy & Tonic",
             },
             description: {
-              it: "Gin Malfy, tonica premium e rosmarino",
-              en: "Gin Malfy, premium tonic and rosemary",
+              it: "Gin Malfy, tonica premium",
+              en: "Gin Malfy, premium tonic",
             },
             price: "12.00",
           },
