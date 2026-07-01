@@ -990,17 +990,6 @@ const MENU = {
               en: "Lugana DOC - Ca' dei Frati",
             },
             description: {
-              it: "Calice € 6,00 · Bottiglia € 23,00",
-              en: "Glass € 6.00 · Bottle € 23.00",
-            },
-            price: "6.00 / 23.00",
-          },
-          {
-            name: {
-              it: "Verde Luna IGT - Caminella",
-              en: "Verde Luna IGT - Caminella",
-            },
-            description: {
               it: "Calice € 6,00 · Bottiglia € 25,00",
               en: "Glass € 6.00 · Bottle € 25.00",
             },
@@ -1008,14 +997,25 @@ const MENU = {
           },
           {
             name: {
-              it: "Gewürztraminer - Kurtatsch",
-              en: "Gewürztraminer - Kurtatsch",
+              it: "Verde Luna IGT - Caminella",
+              en: "Verde Luna IGT - Caminella",
             },
             description: {
-              it: "Bottiglia € 30,00",
-              en: "Bottle € 30.00",
+              it: "Calice € 6,00 · Bottiglia € 26,00",
+              en: "Glass € 6.00 · Bottle € 26.00",
             },
-            price: "30.00",
+            price: "6.00 / 26.00",
+          },
+          {
+            name: {
+              it: "Valcalepio Bianco - Medolago Albani",
+              en: "Valcalepio Bianco - Medolago Albani",
+            },
+            description: {
+              it: "Bottiglia € 24,00",
+              en: "Bottle € 24.00",
+            },
+            price: "24.00",
           },
           {
             name: {
